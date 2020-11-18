@@ -1,0 +1,23 @@
+<!--index/log.wxml-->
+<view class="container">
+  <view class="title">
+   <image class="myicon" src="../images/star.png" />
+   <text class="title-text">星星</text>
+  </view>
+
+  <view class="text">
+    <text class="text1">知道吗？天上的星星无数</text>  
+    <text class="text1">可奇妙的是，不管星星再多再暗</text>
+    <text class="text1">每一颗都会被人看到</text>  
+    <text class="text1">所以我想写本书 上面是全世界人的话</text>
+    <text class="text1">我想为全世界署名</text>
+  </view>
+
+  <view class="log">
+    <button wx:if="{{!hasUserInfo && canIUse}}" type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="log-button"> 微信登录 </button>
+  </view>
+
+  <view class="weui-footer__text">Copyright © 2019-2020 pumpkin</view>
+
+</view>
+

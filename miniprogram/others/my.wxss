@@ -1,0 +1,27 @@
+/* others/my.wxss */
+page{
+  background: whitesmoke
+}
+.weui-icon-clear{
+  display: flex; 
+  justify-content: center;  
+  align-items: center;
+}
+
+
+.mp-slide{
+  background: white;
+  padding: 10% 2% 10% 2%;
+  border-bottom: 20rpx;
+  border-bottom-style: solid;
+  border-bottom-color: whitesmoke;
+}
+
+.weui-slideview__btn__icon{
+  width: 40px;
+  height: 40px
+}
+.weui-slideview_icon{
+  width: 40px;
+  height: 40px
+}

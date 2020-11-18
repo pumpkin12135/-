@@ -1,0 +1,52 @@
+/* index/log.wxss */
+
+.container{
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title{
+  padding-bottom: 5%;
+}
+.myicon{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.title-text{
+  display: flex; 
+  justify-content: center;
+  margin-top: 15rpx;
+}
+.text{
+  font-size: 35rpx;
+  color: #999;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.text1{
+  margin-bottom: 5%;
+}
+
+.log{
+  margin-top: 20%;
+}
+
+
+.weui-footer__text{
+  font-size:30rpx;
+  color: #999;
+  position: fixed;
+  bottom: 20%;
+  display: flex; 
+  justify-content: center;
+}
+
+.log-button{
+  width: 400rpx;
+}

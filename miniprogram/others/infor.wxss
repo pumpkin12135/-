@@ -1,0 +1,108 @@
+/* others/infor.wxss */
+
+.page{
+  width: 100%;
+  overflow-x: hidden;
+}
+.title{
+  padding-bottom: 5%;
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.myicon{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.weui-cells__title{
+  font-size: 30rpx;
+  color: #999;
+  position: relative;
+  left: 10%;
+}
+
+.page__hd{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-top: 0%; 
+}
+
+.page__title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 45rpx;
+  font-weight: bold;
+}
+.page__desc1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-top: 5%;
+}
+.page__desc2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.weui-cells__title{
+  border-bottom: 1px solid #999;
+  margin-top: 10%;
+  width: 80%;
+}
+
+.weui-cell{
+  height: 100%;
+}
+
+.weui-cell__bd{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
+
+.we{
+  border-bottom: 1px solid #999;
+}
+
+.weui-input{
+  position: relative;
+  left: 20%;
+}
+
+.weui-cells_after-title{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 200rpx;
+  right: 10%;
+  margin-top: 2%;
+  border-bottom: 1px solid #999;
+}
+
+.weui-textarea{
+  width: 100%;
+  height: 80%;
+}
+
+.weui-textarea-counter{
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.weui-btn-area{
+  margin-top: 2%;
+}
+
+.weui-btn{
+  width: 400rpx;
+}

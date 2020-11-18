@@ -1,0 +1,55 @@
+<!--others/infor.wxml-->
+<view class="page">
+
+<view class="title">
+   <image class="myicon" src="../images/star.png" />
+  </view>
+
+  <view class="page__hd">
+      <view class="page__title">个人信息</view>
+      <view class="page__desc1">您填写的个人信息仅用于完善功能</view>
+      <view class="page__desc2">不做任何商业用途</view>
+  </view>
+
+  <view class="weui-form__control-area">
+    <view class="weui-cells__group weui-cells__group_form">
+      <view class="weui-cells__title">信息</view>
+      <view class="weui-cells weui-cells_form">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+              <mp-cell prop="name" title="姓名" ext-class="we">
+                <input bindinput="formInputChange1" data-field="name" class="weui-input" placeholder="请输入姓名"/>
+              </mp-cell>
+              <mp-cell prop="sex" title="性别" ext-class="we">
+                <picker bindchange="bindsexChange" value="{{sexIndex}}" range="{{sex}}">
+                  <view class="weui-select weui-select_in-select-after weui-input">{{sex[sexIndex]}}</view>
+                </picker>
+              </mp-cell>
+              <mp-cell prop="mobile" title="电话" ext-class="we">
+                <input bindinput="formInputChange2" data-field="mobile" class="weui-input" placeholder="请输入手机号"/>
+              </mp-cell>
+              <mp-cell prop="date" title="生日" ext-class="">
+                <picker data-field="date" mode="date" value="{{date}}" start="1900-01-01" end="2099-12-31" bindchange="bindDateChange">
+                  <view class="weui-input">{{date}}</view>
+                </picker>
+              </mp-cell>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-cells__title">个性签名</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd"> 
+        <textarea class="weui-textarea" placeholder="请输入文本" bindinput="text_input" maxlength="100"/>
+      </view>
+    </view>
+    <view class="weui-textarea-counter">{{text_cursor}}/100</view>
+  </view>
+
+  <view class="weui-btn-area">
+    <button class="weui-btn" type="primary" bindtap="submitForm">确定</button>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="xin">
+
+  <view class="xin-list" bindtouchend="moveItem" bindtouchstart="moveStart">
+    <block wx:for="{{xinList}}" wx:key="key" wx:for-index="idx">
+      <view class="single" style="opacity:{{item.display}};transform: translateX({{item.slateX}}) scale({{item.scale}});z-index:{{item.zIndex}};transform-origin: 100% 50% 0;{{item.style}}">
+        <view class="list-item-images">
+          <image src="{{item.image}}" class="avata1"/>
+          <image src="https://786c-xly-rboaj-1300558317.tcb.qcloud.la/paper/{{item.paper}}.png" class="avata2"/>
+        </view>
+
+        <view class="list-item-text">
+          <view class="list-item-text-title">
+            <text selectable="true">{{item.title}}</text>
+          </view>
+
+          <view class="list-item-text-content">
+            <text selectable="true">{{item.message}}</text>
+          </view>
+
+          <view class="list-item-text-title2">
+            <text selectable="true">——{{item.from}}</text>
+          </view>
+
+          <view class="list-item-text-title3">
+            <text selectable="true">{{item.time}}</text>
+          </view>
+          
+           <view class="list-love-images">
+              <view wx:if="{{item.beliked}}">
+                <image src="../images/inlove.png" class="love" bindtap="tapno" data-idx="{{idx}}"/>
+                <image src="../images/share1.png" class="share" bindtap="share"/>
+              </view>
+              <view wx:else>
+                <image src="../images/unlove.png" class="love" bindtap="tapyes" data-idx="{{idx}}"/>
+                <image src="../images/share1.png" class="share" bindtap="share"/>
+              </view>
+              <button class='contact-btn1' open-type='share'>a</button> 
+          </view> 
+
+          
+
+        </view>
+
+       
+      
+      </view>
+    </block>
+  </view>
+</view>

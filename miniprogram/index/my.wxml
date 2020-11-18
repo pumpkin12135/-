@@ -1,0 +1,44 @@
+<view class="container">
+  <view class="title">
+    <image src="{{user.avatarUrl}}" class="title-image" />
+    <view class="message">
+      <text class="title-text1">{{user.nickName}}</text>
+      <text class="title-text2">{{sign}}</text>
+    </view>
+  </view>
+  
+  <mp-cells class="my-cells1" >
+    <mp-cell link hover value="点亮星星" url="../others/light">
+      <image slot="title" src="../images/star.png" style="margin-right: 16px;margin-left: 8px;vertical-align: middle;width:23px; height: 23px;"></image>
+      <image slot="footer" src="../images/right.png" style="margin-right: 8px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+  </mp-cells>
+
+  <mp-cells class="my-cells2" >
+    <mp-cell link hover value="喜欢的星星" url="../others/love">
+      <image slot="title" src="../images/mylove.png" style="margin-right: 16px;margin-left: 8px;vertical-align: middle;width:23px; height: 23px;"></image>
+      <image slot="footer" src="../images/right.png" style="margin-right: 8px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+    <mp-cell link hover value="个人信息" url="../others/infor">
+      <image slot="title" src="../images/information.png" style="margin-right: 16px;margin-left: 8px;vertical-align: middle;width:23px; height: 23px;"></image>
+      <image slot="footer" src="../images/right.png" style="margin-right: 8px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+    <mp-cell link hover value="我的星星" url="../others/my">
+      <image slot="title" src="../images/mycreate.png" style="margin-right: 16px;margin-left: 8px;vertical-align: middle;width:23px; height: 23px;"></image>
+      <image slot="footer" src="../images/right.png" style="margin-right: 8px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+  </mp-cells>
+
+  <mp-cells class="my-cells3"  >
+    
+    <mp-cell link hover value="意见反馈">
+      <image slot="title" src="../images/suggest.png" style="margin-right: 16px;margin-left: 8px;vertical-align: middle;width:23px; height: 23px;"></image>
+      <image slot="footer" src="../images/right.png" style="margin-right: 8px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+    
+    <button class='contact-btn1' open-type='feedback'>a</button> 
+    <button class='contact-btn2' open-type='feedback'>a</button> 
+  </mp-cells>
+  
+
+</view>

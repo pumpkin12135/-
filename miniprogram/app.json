@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "index/index",
+    "index/my",
+    "index/logs",
+    "others/infor",
+    "others/love",
+    "others/light",
+    "others/my",
+    "others/open"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "星星",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "index/index",
+        "iconPath": "images/first-no.png",
+        "selectedIconPath": "images/first-yes.png",
+        "text": "探索"
+      },
+      {
+        "pagePath": "index/my",
+        "iconPath": "images/my-no.png",
+        "selectedIconPath": "images/my-yes.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,83 @@
+/* others/open.wxss */
+.container{
+  height: 1000rpx;
+  margin-top: 30rpx;
+  width:100%;
+  overflow-x: hidden;
+}
+.list-item-images{
+  height: 500rpx;
+  width:100%;
+  position: relative;
+}
+.avata1{
+  height: 100%;
+  width: 100%;
+}
+
+.avata2{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 20%;
+  position: absolute;
+  bottom: -50rpx;
+  right: 50rpx;
+}
+.list-item-text{
+  width:96%;
+  background-color: white;
+  margin-top: 20rpx;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.list-item-text-content{
+  padding-left: 6%;
+  padding-right: 6%;
+  font-size: 10rx;
+  color: #999;
+  margin-top: 20rpx;
+}
+
+
+.list-item-text-title2{
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 5%; 
+}
+
+.list-item-text-title3{
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 5%; 
+}
+
+.list-love-images{
+  position: relative;
+  bottom: 5%;
+  margin-top: 10%;
+}
+.love{
+  position: relative;
+  height: 65rpx;
+  width: 65rpx;
+  left: 30%
+}
+
+.share{
+  position: relative;
+  height: 65rpx;
+  width: 65rpx;
+  left: 50%
+}
+
+
+.contact-btn1 {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background: salmon;
+  opacity: 0;
+  bottom: 0%;
+  left: 60%;
+}

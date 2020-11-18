@@ -1,0 +1,263 @@
+/* others/light.wxss */
+.container{
+  width: 100%;
+  overflow-x: hidden;
+}
+.title{
+  padding-bottom: 5%;
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.myicon{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.weui-cells__title{
+  font-size: 30rpx;
+  color: #999;
+  position: relative;
+  left: 10%;
+}
+
+.page__hd{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-top: 0%; 
+}
+
+.page__title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 45rpx;
+  font-weight: bold;
+}
+.page__desc1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-top: 5%;
+}
+.page__desc2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.weui-cells__title{
+  border-bottom: 1px solid #999;
+  margin-top: 0%;
+  width: 80%;
+}
+
+.weui-cell{
+  height: 100%;
+  flex-wrap: wrap; 
+}
+
+.weui-cell__bd{
+  position: relative;
+  left: 0%;
+  width: 80%;
+  height: 100%;
+  margin-top: 0%; 
+}
+.weui-cell__bd2{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  margin-top: 0%; 
+}
+
+.we{
+  border-bottom: 1px solid #999;
+}
+
+.weui-input{
+  position: relative;
+  left: 20%;
+}
+
+.weui-cells_after-title{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 200rpx;
+  right: 10%;
+  margin-top: 2%;
+  border-bottom: 1px solid #999;
+}
+
+.weui-textarea{
+  width: 100%;
+  height: 80%;
+}
+
+.weui-textarea-counter{
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.weui-btn-area{
+  margin-top: 2%;
+}
+
+
+.weui-cell__bd1{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
+.pg{
+  margin-top: 0%; 
+  margin-left: 0%;
+  border-bottom: 1px solid #999;
+
+}
+
+.weui-uploader__hd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding-bottom: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.weui-uploader__title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.weui-uploader__info {
+  color: #B2B2B2;
+}
+.weui-uploader__bd {
+  margin-bottom: 0px;
+  overflow: hidden;
+  margin-top: 4%;
+}
+.weui-uploader__file {
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 9px;
+}
+.weui-uploader__img {
+  display: block;
+  width: 79px;
+  height: 79px;
+}
+.weui-uploader__file_status {
+  position: relative;
+}
+.weui-uploader__file_status:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.weui-uploader__file-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #FFFFFF;
+}
+.weui-uploader__input-box {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 77px;
+  height: 77px;
+  border: 1px solid #D9D9D9;
+}
+.weui-uploader__input-box:before,
+.weui-uploader__input-box:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #D9D9D9;
+}
+.weui-uploader__input-box:before {
+  width: 2px;
+  height: 39.5px;
+}
+.weui-uploader__input-box:after {
+  width: 39.5px;
+  height: 2px;
+}
+.weui-uploader__input-box:active {
+  border-color: #999999;
+}
+.weui-uploader__input-box:active:before,
+.weui-uploader__input-box:active:after {
+  background-color: #999999;
+}
+.weui-uploader__input {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+
+
+.weui-grids {
+  border-top: 1rpx solid rgba(0,0,0,.1);
+  border-left: 1rpx solid rgba(0,0,0,.1);
+  overflow: hidden;
+  width: 531rpx;
+  margin-top: 4%;
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.weui-grid {
+position: relative;
+float: left;
+padding:  30rpx;
+width: 177rpx;
+box-sizing: border-box;
+border-right: 1rpx solid rgba(0,0,0,.1);
+border-bottom: 1rpx solid rgba(0,0,0,.1);
+background-color: white;
+}
+
+.weui-grid-chose{
+  background-color: whitesmoke;
+}
+
+.weui-btn{
+  width: 400rpx;
+}
+
+
+.weui-grid__icon {
+display: block;
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
+

@@ -1,0 +1,19 @@
+/* others/love.wxss */
+page{
+  background: whitesmoke
+}
+.weui-icon-clear{
+  display: flex; 
+  justify-content: center;  
+  align-items: center;
+}
+
+
+.mp-slide{
+  background: white;
+  padding: 10% 2% 10% 2%;
+  border-bottom: 20rpx;
+  border-bottom-style: solid;
+  border-bottom-color: whitesmoke;
+}
+

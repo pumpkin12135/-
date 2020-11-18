@@ -1,0 +1,38 @@
+<!--others/open.wxml-->
+<view class="container">
+      <view class="list-item-images">
+        <image src="{{xin.image}}" class="avata1"/>
+        <image src="https://786c-xly-rboaj-1300558317.tcb.qcloud.la/paper/{{xin.paper}}.png" class="avata2"/>
+      </view>
+
+      <view class="list-item-text">
+        <view class="list-item-text-title">
+         <text selectable="true">{{xin.title}}</text>
+        </view>
+      </view>
+
+      <view class="list-item-text-content">
+        <text selectable="true">{{xin.message}}</text>
+      </view>
+
+      <view class="list-item-text-title2">
+        <text selectable="true">——{{xin.from}}</text>
+      </view>
+
+      <view class="list-item-text-title3">
+        <text selectable="true">{{xin.time}}</text>
+      </view>
+
+      <view class="list-love-images">
+              <view wx:if="{{beliked}}">
+                <image src="../images/inlove.png" class="love" bindtap="tapno"/>
+                <image src="../images/share1.png" class="share"/>
+              </view>
+              <view wx:else>
+                <image src="../images/unlove.png" class="love" bindtap="tapyes"/>
+                <image src="../images/share1.png" class="share"/>
+              </view>
+              <button class='contact-btn1' open-type='share'>a</button> 
+      </view> 
+
+</view>

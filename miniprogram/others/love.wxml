@@ -1,0 +1,19 @@
+<!--others/love.wxml-->
+<view class="container">
+  <view class="page__bd">
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+  </view>
+
+  <mp-cells ext-class="my-cells" title="">
+    <block wx:for="{{xinList}}" wx:key="key" wx:for-index="idx">
+      <view class="mp-slide" >
+       <mp-slideview  buttons="{{[{src: '../../images/share.png', data: idx},{src: '../../images/inlove.png', data: idx}]}}" bindbuttontap="slideButtonTap" icon="{{true}}">
+          <mp-cell link url="./open?image={{item.image}}&id=1&idx={{idx}}" value="{{item.message}}" footer="" >
+            <image slot="title" src="https://786c-xly-rboaj-1300558317.tcb.qcloud.la/paper/{{item.paper}}.png" style="margin-right: 16px;vertical-align: middle;width:50px; height: 50px;"></image>
+          </mp-cell>
+       </mp-slideview>
+      </view>
+    </block>
+  </mp-cells>
+
+</view>

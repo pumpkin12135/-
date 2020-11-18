@@ -1,0 +1,126 @@
+/**index.wxss**/
+
+
+.xin{
+     padding:0 20px;
+     font-size: 14px;
+     color: #444;
+    
+}
+
+.xin .border{
+     height: 0;
+     border-top: 1px solid #ccc;
+     margin-top: 20px;
+     width:20%;
+}
+.xin-list{
+     width: 100%;
+     position: relative;
+}
+.xin-list .single:nth-of-type(1){
+     z-index: 10;
+}
+
+.xin-list .single:nth-of-type(n+4){
+     
+     transform:translateX(40px) scale(0.6);
+     transform-origin: 100% 50% 0; 
+}
+.xin-list .single{
+     transition: all 1s;
+     border-radius: 1px;
+     margin-top:15px;
+     width: calc(100% - 20rpx);
+     height: calc(100vh - 100rpx - 11vh);
+     background: #fff;
+     position: absolute;
+     left: 10rpx;
+     box-shadow: 3px 3px 10px 0px #777;
+     overflow-x: hidden;
+}
+
+.list-item{
+  height: 770rpx;
+  margin-top: 30rpx;
+  width:100%;
+}
+
+.list-item-images{
+  height: 500rpx;
+  width:100%;
+  position: relative;
+}
+
+.avata1{
+  height: 100%;
+  width: 100%;
+}
+
+.avata2{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 20%;
+  position: absolute;
+  bottom: -50rpx;
+  right: 50rpx;
+}
+
+.list-item-text{
+  height: 250rpx;
+  width:96%;
+  background-color: white;
+  margin-top: 20rpx;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.list-item-text-content{
+  font-size: 10rx;
+  color: #999;
+  margin-top: 20rpx;
+}
+
+.list-item-text-title2{
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 5%; 
+}
+
+.list-item-text-title3{
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 5%; 
+}
+
+.list-love-images{
+  position: relative;
+  bottom: 5%;
+  margin-top: 10%;
+}
+.love{
+  position: relative;
+  height: 65rpx;
+  width: 65rpx;
+  left: 30%;
+}
+
+.share{
+  position: relative;
+  height: 65rpx;
+  width: 65rpx;
+  left: 50%;
+}
+
+
+.contact-btn1 {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background: salmon;
+  opacity: 0;
+  bottom: 0%;
+  left: 60%;
+}
+
